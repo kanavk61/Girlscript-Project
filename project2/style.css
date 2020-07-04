@@ -18,10 +18,16 @@ h2 {
   width: 300px;
   margin: 0 auto;
   padding: 20px 0;
+  text-align: center;
 }
 
 h2, h3{
     font-family: 'Nunito', sans-serif;
+    text-align: center;
+    background-color:#40476d ;
+    border-radius: 5px;
+    padding: 10px;
+    color: ivory;
 }
 
 .content {
@@ -31,4 +37,14 @@ h2, h3{
   border-radius: 5px;
   padding: 5px;
   background-color: #daa49a;
+  text-align: center;
+}
+
+hr{
+  border: none;
+  border-top: dotted ivory;
+  border-radius: 1px;
+  height: 0px;
+  width: 30px;
+  
 }
