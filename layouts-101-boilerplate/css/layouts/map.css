@@ -1,4 +1,20 @@
 /* TODO: code the map layout using flexbox */
+.main-container{
+  display: flex;
+}
+.card_container{
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+#map {
+  height: 100vh;
+  flex: 0 0 300px;
+  position: sticky !important;
+  top: 0 !important;
+}
 
 
 /* Some basic cards and map design  */
@@ -15,6 +31,3 @@
   margin: 10px 0px;
 }
 
-#map {
-  height: 200px;
-}
