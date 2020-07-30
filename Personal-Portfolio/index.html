@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kanav Krishan</title>
     <link rel="stylesheet" href="default.css">
+    <link id="theme-style" rel="stylesheet" href="">
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
@@ -34,10 +35,10 @@
                     <h5 style="text-align: center; line-height: 0;">Personalize Theme</h5>
 
                     <div id="theme-options-wrapper">
-                        <div id="light-mode" class="theme-dots"></div>
-                        <div id="blue-mode" class="theme-dots"></div>
-                        <div id="green-mode" class="theme-dots"></div>
-                        <div id="purple-mode" class="theme-dots"></div>
+                        <div data-mode="light" id="light-mode" class="theme-dots"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dots"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dots"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dots"></div>
 
                     </div>
                 </div>
@@ -48,7 +49,7 @@
                             <div id="corner-tl" class="corner"></div>
                             <div id="corner-tr" class="corner"></div>
                             <h3>What I Do?</h3>
-                            <p>I am a Otaku who develop Websites.</p>
+                            <p>I am an Otaku who develop Websites.</p>
                             <div id="corner-br" class="corner"></div>
                             <div id="corner-bl" class="corner"></div>
                         </div>
@@ -69,9 +70,18 @@
                     <p>I love to learn new things and create along the way learning and strengthening my skillset.</p>
                     <p>I always try to put myself out of my comfortzone as to expand myself in terms of resilience.</p>
                 </div>
+                <hr>
 
-                <div class="social-links">
-
+                
+                <div id="skills">
+                    <ul>
+                        <li><h4>SKILLS</h4></li>
+                        <li>C (Data Structures)</li>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>It will expand faster.</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -79,14 +89,32 @@
 
     <section class="s1">
         <div class="main-container">
-            Portfolio
+            UNDER CONSTRUCTION
         </div>
     </section>
 
     <section class="s2">
         <div class="main-container">
-            Contact
+            <h3 style="text-align: center;">Get In Touch</h3>
+
+            <form id="contact-form" action="">
+                <label for="name">Name</label>
+                <input id="name" class="input-field" type="text" name="name">
+
+                <label for="subject">Subject</label>
+                <input id="subject" class="input-field" type="text" name="subject">
+
+                <label for="Email">E-Mail</label>
+                <input id="Email" class="input-field" type="email" name="Email">
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10">Write your message here</textarea>
+
+                <input id="submit-button" type="submit" value="Send">
+            </form>
         </div>
     </section>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
